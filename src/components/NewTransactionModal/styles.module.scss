@@ -1,0 +1,27 @@
+.modalTabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  justify-items: center;
+  border-bottom: 1px solid var(--gray-500);
+
+  .activeButton {
+    border-bottom: 3px solid var(--purple-500);
+    margin-bottom: calc(1.5rem - 3px);
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+    &:hover {
+      border-bottom: 3px solid var(--purple-500);
+      margin-bottom: calc(1.5rem - 3px);
+    }
+  }
+}
+
+

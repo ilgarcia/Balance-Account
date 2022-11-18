@@ -1,0 +1,37 @@
+.moveForm {
+  margin-top: 1.5rem;
+
+  .buttonContainer {
+    margin: 1rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  .buttonSubmit {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .squareButton{
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: 1px solid var(--black);
+    background: var(--white);
+    color: var(--black);
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    transition: filter 0.2s;
+  
+    &:hover {
+      filter: brightness(0.95);
+    }
+  }
+}
+
+

@@ -1,0 +1,82 @@
+.cadastroSection {
+  display: flex;
+  align-items: center;
+}
+
+.cadastroBackground {
+  margin-left: 50px;
+  width: 1220px;
+  height: 100vh;
+  background-color: var(--white);
+  color: var(--black);
+  padding: 30px;
+}
+
+.imageContainer {
+  position: relative;
+  display: flex;
+  left: -80px;
+  height: 95vh;
+  width: 30vw;
+
+  img {
+    margin: auto auto;
+  }
+}
+
+.cadastroInfo {
+  padding-left: 80px;
+  max-width: 800px;
+  height: calc(100% - 25px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  h2 {
+    font-weight: 400;
+
+    a {
+      color: var(--purple-500);
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+    button {
+      margin-top: 30px;
+    }
+  }
+}
+
+.ngForms {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 25px;
+  font-weight: 500;
+
+  input {
+    height: 35px;
+    width: 800px;
+    border-width: 1px;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+}
+
+.cadastroText{
+  margin-top: 30px;
+
+
+  span {
+    font-weight: 500;
+  }
+}
