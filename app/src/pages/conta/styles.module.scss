@@ -1,0 +1,81 @@
+.container {
+  background: var(--white);
+  min-height: 100vh;
+}
+
+.headerStyle {
+  background: var(--black);
+
+  div {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 2rem 1rem 12rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.headerStyle {
+  div {
+    button {
+      padding: 0 1.5rem;
+      border-radius: 30px;
+
+      transition: color 0.2s;
+      transition: background 0.2s;
+
+      &:hover {
+        background: var(--purple-500);
+        color: var(--white);
+      }
+    }
+  }
+}
+
+.dashboard {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2rem 1rem 12rem;
+}
+
+.balanceCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: -10rem;
+
+  div {
+    background: var(--white);
+    padding: 1.5rem 2rem;
+    border: 3px solid var(--black);
+    border-radius: 0.25rem;
+    color: var(--black);
+
+    box-shadow: 5px 5px var(--purple-500);
+
+    &:last-child {
+      box-shadow: 5px 5px var(--green-500);
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    strong {
+      display: block;
+      margin-top: 1rem;
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: 3rem;
+    }
+
+    &.highlight-background {
+      background: var(--green);
+      color: #fff;
+    }
+  }
+}

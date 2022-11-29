@@ -1,0 +1,31 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ilgarcia/Balance-Account.git",
+  "author": "ilgarcia <60369262+ilgarcia@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-jwt": "^7.7.7",
+    "express-react-views": "^0.11.0",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "node-dev": "^7.4.3",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "pug": "^3.0.2",
+    "sequelize": "^6.25.6",
+    "uuid": "^9.0.0"
+  }
+}
